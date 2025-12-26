@@ -16,6 +16,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
 .description{
@@ -170,6 +171,7 @@ html, body{
     left: 50%;
     height: 400px;
     display: flex;
+    
     justify-content: center;
     white-space: nowrap;
     text-align: center;
@@ -404,7 +406,7 @@ p{
     align-items: center;
     justify-content: space-between;
     height: auto;
-    
+    border: 2px solid bro;
     padding: 25px;
     width: 100%;
     
@@ -426,7 +428,8 @@ background-color: lightpink;
     display: flex;
     flex-direction: column;
     align-items: start;
-    padding: 40px;
+    padding: 20px;
+    
     background-color: #ecf2cf;
 
 }
@@ -460,6 +463,8 @@ background-color: lightpink;
     display: flex;
     flex-direction: row;
     flex: 1;
+    
+    background-color: #ecf2cf;
 }
 
 @media (max-width: 991px) {
@@ -472,7 +477,7 @@ background-color: lightpink;
 
 @media (max-width: 991px) {
     .get-started-container, .audit-container{
-        width: 90%;
+        width: auto;
     }
 }
 
