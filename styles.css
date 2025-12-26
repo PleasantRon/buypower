@@ -404,7 +404,9 @@ p{
     align-items: center;
     justify-content: space-between;
     height: auto;
-    padding: 24px;
+    
+    padding: 25px;
+    width: 100%;
     
 }
 
@@ -463,14 +465,14 @@ background-color: lightpink;
 @media (max-width: 991px) {
     .container6{
         flex-direction: column;
-        background-color: lightblue;
+        background-color: white;
         
     }
 }
 
 @media (max-width: 991px) {
     .get-started-container, .audit-container{
-        width: 95%;
+        width: 90%;
     }
 }
 
@@ -484,7 +486,7 @@ background-color: lightpink;
     display: flex;
     flex: 1;
     background-color: #fcfbfa;
-    padding: 50px 5px;
+    padding: 50px 10px;
 }
 .wraps{
     display: grid;
