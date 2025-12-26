@@ -114,6 +114,19 @@ body{
         opacity: 0;
     }
 }
+
+@media (max-width: 768px) {
+    .noder{
+        opacity: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .header{
+        opacity: 1;
+    }
+}
+
 .hamburger-menu{
     width: 30px;
 }
