@@ -424,7 +424,7 @@ background-color: lightpink;
     display: flex;
     flex-direction: column;
     align-items: start;
-    padding: 24px;
+    padding: 40px;
     background-color: #ecf2cf;
 
 }
@@ -484,7 +484,7 @@ background-color: lightpink;
     display: flex;
     flex: 1;
     background-color: #fcfbfa;
-    padding: 30px 5px;
+    padding: 50px 5px;
 }
 .wraps{
     display: grid;
